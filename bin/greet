@@ -2,8 +2,9 @@
 require_relative "../lib/greeting.rb"
 greeting.#!/usr/bin/env ruby -wKU
 learn spec/02_cli_spec.#!/usr/bin/env ruby -wKU
-def greeting(name)
+def greetin(name)
 puts "Hi! I'm HAL, what's your name?"
-name = ("Dani")
 puts "greeting #{name}"
+name = gets.strip
+gets(name)
 end
