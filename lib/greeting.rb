@@ -1,5 +1,8 @@
 learn spec/01_greeting_spec.#!/usr/bin/env ruby -wKU
-def greeting(name)
+learn spec/02_cli_spec.#!/usr/bin/env ruby -wKU
+
 puts "Hello #{name}. It's nice to meet you."
-name = gets.strip
+
+ greeting = "#{name}"
+
 end
