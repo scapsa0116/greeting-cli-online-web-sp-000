@@ -3,6 +3,6 @@ learn spec/02_cli_spec.#!/usr/bin/env ruby -wKU
 
 puts "Hello #{name}. It's nice to meet you."
 
- greeting = "#{name}"
+ greeting(stephany)
 
 end
