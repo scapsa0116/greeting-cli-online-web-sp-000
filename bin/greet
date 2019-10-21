@@ -4,5 +4,5 @@ learn spec/02_cli_spec.#!/usr/bin/env ruby -wKU
 
 puts "Hi! I'm HAL, what's your name?"
 name = gets.strip
-def greeting (name)
+greeting(name)
 end
